@@ -24,7 +24,7 @@ jobs:
       - job-1
     steps:
       - name: Output for Job 2
-        run: exit 1
+        run: echo "Hello from Job 2. "
 
       
   job-3:
